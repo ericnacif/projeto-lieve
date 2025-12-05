@@ -1,0 +1,11 @@
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Erico Teste",
+  "email": "teste@lieve.com",
+  "password": "senha123forte",
+  "height": 180,
+  "currentWeight": 85.5,
+  "targetWeight": 80.0
+}
